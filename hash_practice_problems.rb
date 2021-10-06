@@ -33,4 +33,7 @@ e = gets.chomp
 
 people << {first_name: fn, last_name: ln, email: e}
 
-p people
+p fn
+p ln
+p e
+
