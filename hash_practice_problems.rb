@@ -56,7 +56,15 @@
 # p people[0]
 
 # 3. 
-menu = {water: 300, juice: 4.00, beer: 5.00}
-menu[:soda] = 4.00
+# menu = {water: 300, juice: 4.00, beer: 5.00}
+# menu[:soda] = 4.00
 
-p menu
+# p menu
+
+# 4.
+book = {title: "Cool Book", author: "Cool Author", pages: 100, language: "Chamorro"}
+
+p book[:title]
+p book[:author]
+p book[:pages]
+p book[:language]
