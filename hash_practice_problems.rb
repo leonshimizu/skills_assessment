@@ -88,8 +88,10 @@
 # p books[2][:author]
 
 # 6. 
-states = {Arizona: "Phoenix", California: "Sacramento", Colorado: "Denver"}
+# states = {Arizona: "Phoenix", California: "Sacramento", Colorado: "Denver"}
 
-states[:Utah] = "Salt Lake City"
+# states[:Utah] = "Salt Lake City"
 
-p states
+# p states
+
+# 7.
