@@ -62,9 +62,27 @@
 # p menu
 
 # 4.
-book = {title: "Cool Book", author: "Cool Author", pages: 100, language: "Chamorro"}
+# book = {title: "Cool Book", author: "Cool Author", pages: 100, language: "Chamorro"}
 
-p book[:title]
-p book[:author]
-p book[:pages]
-p book[:language]
+# p book[:title]
+# p book[:author]
+# p book[:pages]
+# p book[:language]
+
+# 5. 
+books = [
+  {
+    title: "Book1",
+    author: "Author1"
+  },
+  {
+    title: "Book2",
+    author: "Author2"
+  },
+  {
+    title: "Book3",
+    author: "Author3"
+  }
+]
+
+p books[2][:author]
