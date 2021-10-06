@@ -38,19 +38,25 @@
 # p e
 
 # 2.
-people = [
-  {
-    "first_name" => "Clai", 
-    "last_name" => "Crisostomo"
-  },
-  {
-    "first_name" => "Stassie",
-    "last_name" => "Shimizu"
-  },
-  {
-    "first_name" => "Leon",
-    "last_name" => "Shimizu"
-  }
-]
+# people = [
+#   {
+#     "first_name" => "Clai", 
+#     "last_name" => "Crisostomo"
+#   },
+#   {
+#     "first_name" => "Stassie",
+#     "last_name" => "Shimizu"
+#   },
+#   {
+#     "first_name" => "Leon",
+#     "last_name" => "Shimizu"
+#   }
+# ]
 
-p people[0]
+# p people[0]
+
+# 3. 
+menu = {water: 300, juice: 4.00, beer: 5.00}
+menu[:soda] = 4.00
+
+p menu
