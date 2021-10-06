@@ -24,16 +24,33 @@
 
 # ANSWERS
 # 1. 
-puts "Please type your first name, last name, and email:"
-people = []
+# puts "Please type your first name, last name, and email:"
+# people = []
 
-fn = gets.chomp
-ln = gets.chomp
-e = gets.chomp
+# fn = gets.chomp
+# ln = gets.chomp
+# e = gets.chomp
 
-people << {first_name: fn, last_name: ln, email: e}
+# people << {first_name: fn, last_name: ln, email: e}
 
-p fn
-p ln
-p e
+# p fn
+# p ln
+# p e
 
+# 2.
+people = [
+  {
+    "first_name" => "Clai", 
+    "last_name" => "Crisostomo"
+  },
+  {
+    "first_name" => "Stassie",
+    "last_name" => "Shimizu"
+  },
+  {
+    "first_name" => "Leon",
+    "last_name" => "Shimizu"
+  }
+]
+
+p people[0]
