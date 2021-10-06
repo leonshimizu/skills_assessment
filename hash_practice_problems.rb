@@ -70,19 +70,26 @@
 # p book[:language]
 
 # 5. 
-books = [
-  {
-    title: "Book1",
-    author: "Author1"
-  },
-  {
-    title: "Book2",
-    author: "Author2"
-  },
-  {
-    title: "Book3",
-    author: "Author3"
-  }
-]
+# books = [
+#   {
+#     title: "Book1",
+#     author: "Author1"
+#   },
+#   {
+#     title: "Book2",
+#     author: "Author2"
+#   },
+#   {
+#     title: "Book3",
+#     author: "Author3"
+#   }
+# ]
 
-p books[2][:author]
+# p books[2][:author]
+
+# 6. 
+states = {Arizona: "Phoenix", California: "Sacramento", Colorado: "Denver"}
+
+states[:Utah] = "Salt Lake City"
+
+p states
