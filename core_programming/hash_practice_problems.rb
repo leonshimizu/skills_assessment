@@ -95,3 +95,27 @@
 # p states
 
 # 7.
+# hash = {
+#   brand: "Apple",
+#   model: "MacBook Pro",
+#   year: 2017
+# }
+# p hash[:brand]
+# p hash[:model]
+# p hash[:year]
+
+# 8
+# array = [
+#   {brand: "Apple", model: "MacBook Pro"},
+#   {brand: "Microsoft", model: "Surface Pro"},
+#   {brand: "Asus", model: "Gaming Pro"}
+# ]
+# p array[1][:model]
+
+# 9
+# hash = {
+#   word: "a single distinct meaningful element of speech or writing",
+#   number: "an arithmetical value, expressed by a word, symbol, or figure"
+# }
+# hash[:letter] = "a character representing one or more of the sounds used in speech"
+# p hash
