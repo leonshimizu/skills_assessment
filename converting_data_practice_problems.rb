@@ -39,6 +39,26 @@
 # string = "bookkeeper"
 # hash = {}
 
+# string_array = string.split("")
+
+# string_array.each do |letter|
+#   if hash[letter] == nil
+#     hash[letter] = 0
+#   end
+#   hash[letter] += 1
+# end
+
+# i = 0
+# while i < string.length
+#   if hash[string[i]] == nil
+#     hash[string[i]] = 0
+#   end
+#   hash[string[i]] += 1
+#   i += 1
+# end
+
+# p hash
+
 # i = 0
 # while i < string.length
 #   key = i + 1
